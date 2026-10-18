@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Atonu Roy Chowdhury</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Atonu Roy Chowdhury</h1>
+        <p>
+            Hello! I am <strong>Atonu Roy Chowdhury</strong>, a
+            <em>Computer Science and Technology student</em> and an aspiring
+            <u>Full-Stack Web Developer</u>.
+        </p>
+        <p>
+            I am interested in
+            <mark>Web Development</mark>,
+            programming, and learning new technologies.
+        </p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#media">Media</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+        <!-- about -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am currently studying Computer Science and Technology.
+                I enjoy building websites and learning how web applications
+                work. I am particularly interested in backend development
+                and I am currently learning Python and Django.
+            </p>
+
+            <p>
+                My goal is to become a skilled
+                <b>Full-Stack Web Developer</b> and build useful
+                and practical web applications.
+            </p>
+
+        </section>
+        <!-- Additional Information -->
+        <section>
+
+            <details>
+                <summary>Click here to see additional information</summary>
+
+                <p>
+                    I enjoy learning new programming concepts and working
+                    on web development projects. I like solving problems
+                    through programming and continuously improving my skills.
+                </p>
+
+                <p>
+                    Currently, I am focusing on backend development,
+                    database concepts, and building practical web applications.
+                </p>
+            </details>
+        </section>
+        <hr>
+
+        <!-- Academic Information -->
+        <section id="education">
+            <h2>Academic Information</h2>
+
+            <table border="1">
+                <caption>My Academic Information</caption>
+
+                <thead>
+                    <tr>
+                        <th>Examination</th>
+                        <th>Institution</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>JSC</td>
+                        <td>GK United Secondary School</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>GK United Secondary School</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Diploma in Engineering</td>
+                        <td>Jashore Govt. Polytechnic Institute</td>
+                        <td>CGPA 3.92</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Hobbies -->
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>Programming</li>
+                <li>Listening Music</li>
+                <li>Watching Movies</li>
+                <li>Drawing</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Multimedia -->
+        <section id="media">
+            <h2>Multimedia</h2>
+
+            <h3>My Photo</h3>
+
+            <img src="https://res.cloudinary.com/ddrochzoq/image/upload/media/profile/Messenger_creation_AFBF1A2B-6FFC-4E71-AF1E-50B38F58B5B6_dowoss.jpg"
+                alt="A photo of Atonu Roy Chowdhury" width="250">
+
+            <h3>My Favorite Video</h3>
+
+            <video controls width="320">
+                <source
+                    src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/audio-video/video.mp4"
+                    type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <hr>
+
+
+
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Personal Information Form</h2>
+
+            <form>
+
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <br><br>
+
+                <!-- Gender -->
+                <fieldset>
+                    <legend>Gender:</legend>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </fieldset>
+
+                <br>
+
+                <!-- Hobbies -->
+                <fieldset>
+                    <legend>Hobbies:</legend>
+
+                    <input type="checkbox" id="programming" name="hobbies" value="programming">
+                    <label for="programming">Programming</label>
+
+                    <input type="checkbox" id="singing" name="hobbies" value="singing">
+                    <label for="singing">Singing</label>
+
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label>
+
+                    <input type="checkbox" id="movies" name="hobbies" value="movies">
+                    <label for="movies">Watching Movies</label>
+                </fieldset>
+
+                <br>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Interactive Button -->
+         <section>
+            <button type="button" onclick="alert('Welcome To My Profile')" >Click Here :)</button>
+         </section>
+    </main>
+
+    <hr>
+    
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Atonu Roy Chowdhury. All rights reserved.
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
